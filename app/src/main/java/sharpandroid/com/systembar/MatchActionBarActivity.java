@@ -23,7 +23,9 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-
+/**
+ * 和标题栏颜色相同 ,用了样式中的actionbar,但是14以上才有actionbar
+ */
 public class MatchActionBarActivity extends Activity { 
 
 	@Override
@@ -37,7 +39,7 @@ public class MatchActionBarActivity extends Activity {
 
 		SystemBarTintManager tintManager = new SystemBarTintManager(this);
 		tintManager.setStatusBarTintEnabled(true);
-		tintManager.setStatusBarTintResource(R.color.statusbar_bg);
+		tintManager.setStatusBarTintResource(R.color.actionbar_bg);
 
 	}
 
