@@ -52,6 +52,7 @@
                 <category android:name="com.readystatesoftware.systembartint.SAMPLE" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ColorTranslucentBarActivity"
             android:label="@string/same"
@@ -61,6 +62,7 @@
                 <category android:name="com.readystatesoftware.systembartint.SAMPLE" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".BestTranslucentBarActivity"
             android:label="@string/best"
