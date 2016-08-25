@@ -43,6 +43,35 @@
                 <category android:name="com.readystatesoftware.systembartint.SAMPLE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ImageTranslucentBarActivity"
+            android:label="@string/picture"
+            android:theme="@style/ImageTranslucentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.readystatesoftware.systembartint.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColorTranslucentBarActivity"
+            android:label="@string/same"
+            android:theme="@style/ColorTranslucentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.readystatesoftware.systembartint.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BestTranslucentBarActivity"
+            android:label="@string/best"
+            android:theme="@style/ColorTranslucentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.readystatesoftware.systembartint.SAMPLE" />
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>

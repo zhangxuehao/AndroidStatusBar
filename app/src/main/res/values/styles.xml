@@ -25,4 +25,12 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <style name="ImageTranslucentTheme" parent="AppTheme">
+        <!--在Android 4.4之前的版本上运行，直接跟随系统主题-->
+    </style>
+    <style name="ColorTranslucentTheme" parent="AppTheme">
+    </style>
+    <style name="Theme.Translucent.Navigation" parent="AppTheme">
+    </style>
+
 </resources>
