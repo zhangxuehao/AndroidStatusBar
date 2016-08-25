@@ -19,7 +19,9 @@ package sharpandroid.com.systembar;
 import android.app.Activity;
 import android.os.Bundle;
 
-
+/**
+ * 设置了状态栏和导航栏 (特别提示:导航栏报错顶部和底部。大多手机是没有屏幕底部菜单的,nexus是有的。)
+ */
 public class DefaultActivity extends Activity { 
 
 	@Override
