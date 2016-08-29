@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".DefaultActivity"
             android:label="@string/default_example"
@@ -25,10 +26,11 @@
                 <category android:name="com.readystatesoftware.systembartint.SAMPLE" />
             </intent-filter>
         </activity>
+
         <activity
+            android:theme="@style/FullBleedTheme"
             android:name=".MatchActionBarActivity"
-            android:label="@string/match_actionbar_example"
-            android:theme="@style/ActionBarTheme" >
+            android:label="@string/match_actionbar_example">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.readystatesoftware.systembartint.SAMPLE" />
@@ -67,6 +69,16 @@
             android:name=".BestTranslucentBarActivity"
             android:label="@string/best"
             android:theme="@style/ColorTranslucentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.readystatesoftware.systembartint.SAMPLE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".WhiteBackgroundActivity"
+            android:label="@string/best"
+             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.readystatesoftware.systembartint.SAMPLE" />

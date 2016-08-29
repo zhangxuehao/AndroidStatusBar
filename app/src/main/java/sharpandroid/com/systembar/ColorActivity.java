@@ -16,15 +16,15 @@
 
 package sharpandroid.com.systembar;
 
-import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
 
-public class ColorActivity extends Activity { 
+public class ColorActivity extends AppCompatActivity {
 
 	private SystemBarTintManager mTintManager;
 	private ColorPicker mColorPicker;

@@ -20,13 +20,14 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
 
 /**
  * 和标题栏颜色相同 ,用了样式中的actionbar,但是14以上才有actionbar
  */
-public class MatchActionBarActivity extends Activity { 
+public class MatchActionBarActivity extends AppCompatActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
