@@ -78,7 +78,7 @@
         <activity
             android:name=".WhiteBackgroundActivity"
             android:label="白色背景"
-            android:theme="@style/ColorTranslucentTheme">
+            android:theme="@style/WhiteStautsBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="com.readystatesoftware.systembartint.SAMPLE"/>

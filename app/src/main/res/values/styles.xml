@@ -31,4 +31,6 @@
     <style name="Theme.Translucent.Navigation" parent="AppTheme">
     </style>
 
+    <style name="WhiteStautsBar" parent="AppTheme">
+    </style>
 </resources>
