@@ -1,3 +1,5 @@
+package sharpandroid.com.systembar;
+
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.graphics.Color;
@@ -8,8 +10,6 @@ import android.view.WindowManager;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-
-import sharpandroid.com.systembar.SystemBarTintManager;
 
 /**
  * Created by jerry on 8/29/16.
